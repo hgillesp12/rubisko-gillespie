@@ -1,0 +1,9 @@
+path: ../datasets/quality
+train: images/train
+val: images/val
+
+names:
+  0: healthy_tissue
+  1: necrotic_tissue
+  2: bleached_cells
+  3: high_density_cluster

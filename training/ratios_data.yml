@@ -1,0 +1,8 @@
+path: ../datasets/ratios
+train: images/train
+val: images/val
+
+names:
+  0: male_gametangia
+  1: female_oogonia
+  2: vegetative_sterile

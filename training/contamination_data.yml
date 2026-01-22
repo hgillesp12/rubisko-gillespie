@@ -1,0 +1,9 @@
+path: ../datasets/contamination
+train: images/train
+val: images/val
+
+names:
+  0: bacteria_colony
+  1: fungal_hyphae
+  2: unwanted_microalgae
+  3: inorganic_debris

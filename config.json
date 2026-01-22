@@ -1,0 +1,38 @@
+{
+    "system_metadata": {
+        "lab_id": "RUBISKO-SEAWEED-LAB-01",
+        "microscope_model": "Olympus CKX41",
+        "camera_model": "Olympus EP50",
+        "calibration_date": "2026-01-22"
+    },
+    "stream_settings": {
+        "source": "rtsp://192.168.1.100:554/live",
+        "resolution": [1920, 1080],
+        "target_fps": 30
+    },
+    "calibration": {
+        "400x": {
+            "pixels_per_micron": 2.48,
+            "mag_detection_threshold_min": 0,
+            "mag_detection_threshold_max": 70,
+            "description": "Used for general health scanning and contamination checks"
+        },
+        "1000x": {
+            "pixels_per_micron": 6.15,
+            "mag_detection_threshold_min": 71,
+            "mag_detection_threshold_max": 500,
+            "description": "Used for detailed sex-ratio and developmental stage analysis"
+        }
+    },
+    "inference_hyperparameters": {
+        "confidence_threshold": 0.45,
+        "iou_threshold": 0.50,
+        "auto_mode_sensitivity": 2.0,
+        "analysis_cooldown_seconds": 3.0
+    },
+    "reporting": {
+        "save_local_copy": true,
+        "export_format": "csv",
+        "cloud_sync": false
+    }
+}

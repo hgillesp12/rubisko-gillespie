@@ -1,0 +1,9 @@
+path: ../datasets/stage
+train: images/train
+val: images/val
+
+names:
+  0: spore
+  1: germling
+  2: juvenile_thallus
+  3: mature_gametophyte
